@@ -1,0 +1,82 @@
+body{
+    font-family: Big Shoulders;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    width: 1440px;
+    height: 800px;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 307px 306px 307px;
+}  
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 41px;
+    height: 404px;
+    padding: 48px 48px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+    margin-top: 41px;
+    height: 404px;
+    padding: 48px 48px;
+}
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    margin-top: 41px;
+    height: 404px;
+    padding: 48px 48px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.title{
+    font-size: 39.1px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+.paragraph{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+.learn-btn-1, .learn-btn-2, .learn-btn-3{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 30px;
+    margin-top: 68px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    border-radius: 23px;
+    transition: 0.3s;
+}
+.learn-btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.learn-btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.learn-btn-3{
+    color: hsl(179, 100%, 13%);
+}
+.learn-btn-1:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: solid hsl(0, 0%, 95%) 2px;
+}
+.learn-btn-2:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: solid hsl(0, 0%, 95%) 2px;
+}
+.learn-btn-3:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: solid hsl(0, 0%, 95%) 2px;
+}
